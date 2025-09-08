@@ -16,7 +16,7 @@ def test_insider_case(driver):
     assert careers.is_teams_block_visible(), "Teams görünmüyor 🫥"
     assert careers.is_life_block_visible(), "Life at Insider görünmüyor 🫥"
 
-    # Step 3: QA Jobs 
+    # Jobs 
     qa_page = QAJobsPage(driver)
     qa_page.open()
     qa_page.click_see_all_jobs()
